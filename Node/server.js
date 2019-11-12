@@ -199,7 +199,7 @@ function runServer(port, databaseUrl){
     });
    }
    
-runServer( 8080, "mongodb://localhost/petsDB" )
+runServer( PORT, DATABASE_URL )
     .catch( err => {
     console.log( err );
 });
