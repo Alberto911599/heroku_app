@@ -1,0 +1,7 @@
+let bp = require("body-parser");
+let jsonParser = bp.json();
+app.post("api/pets/addPet", jsonParser, (req, res, next) => {
+    req.body
+})
+
+// select post body, raw, json

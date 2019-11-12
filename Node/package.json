@@ -1,0 +1,21 @@
+{
+  "name": "first_node_project",
+  "version": "1.0.0",
+  "description": "small project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Alberto",
+    "Lopez"
+  ],
+  "author": "Alberto Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.8",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
